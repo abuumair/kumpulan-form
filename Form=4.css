@@ -1,0 +1,128 @@
+*{
+margin: 0;padding: 0;font-family: sans-serif;box-sizing: border-box;
+}
+body{
+background-image:url('image/1V6P.jpg');
+display:flex;min-height:100px;border:5px;
+}
+form{
+margin: auto;width: 565px;max-width: 1000px;padding: 35px;margin-top: 5pc;background:rgba(62, 57, 57, 0.55);border: 10px;border-radius: 5px;
+margin-bottom: 10px;
+}
+p{
+text-align: center;padding-bottom: 15px;color: white;font-size: x-large;
+}
+input{
+display: block;padding: 15px;width: 100%;margin: 20px 0;font-size: 17px;border: 0px;border-radius: 5px 5px;text-indent: 0px;
+}
+input[type=checkbox]{
+margin-left:  0px;
+margin-top: -15px;
+width: 15px;
+}
+.Form-input{
+color: red;
+}
+.Form-input-login{
+color:darkslategrey;
+}
+button{
+padding:10px;width: 100%;margin:10px 0;border: 0px;border-radius: 5px;-webkit-transition:all 5s; background:#66A756;color: white;font-size: large;
+cursor: pointer;
+}
+button:hover{
+background-color:#DA4735;
+}
+hr{
+display: block;
+}
+b.text{
+padding:0px 150px;
+vertical-align: baseline;
+color: white; 
+font-size: 0.9rem;	
+margin-top:0.9rem; 
+}
+b{
+	display: inline-block;
+	vertical-align:baseline;
+	padding:0 20px;
+		&:before,&:after{
+		content:'';
+		display:block;
+		width: 500px;
+		position: absolute;
+		top: 0,9em;
+		border-top: 1px solid $text-color;	
+		}
+	&:before {
+        right: 75%;
+      }
+      
+    &:after {
+        left: 75%;
+     }
+}
+.h4{
+display: inline-block;margin-left:5%;color:aliceblue;font-size: 0.9rem;padding-top: 10px;
+
+}
+i.fa.fa-facebook{
+font-size: 15px;
+background: #4464B2;
+width: 130px;
+padding:15px 20px;
+border-radius: 5px;
+color: white;
+padding-bottom: 6px;
+-webkit-transition:all 1s;
+transition-duration: 5.1s;
+}
+i.fa.fa-facebook:hover{
+background-color: black;
+}
+.buttom{
+padding-top: 15px;
+margin-left: 5px;
+margin: 15px 30px;
+}
+i.fa.fa-twitter{
+font-size: 15px;
+background: #28A9E0;
+width: 135px;
+padding:15px 25px;
+border-radius: 5px;
+color: white;
+padding-bottom: 5px;
+-webkit-transition:all 1s;
+transition-duration: 5.1s;
+}
+i.fa.fa-twitter:hover{
+background-color: black;
+}
+i.fa.fa-google{
+font-size: 15px;
+background: #DA4735;
+width: 130px;
+padding:15px 30px;
+border-radius: 5px;
+color: white;
+padding-bottom: 6px;
+-webkit-transition:all 1s;
+transition-duration: 5.1s;
+}
+i.fa.fa-google:hover{
+background-color: black;
+}
+.te{
+text-decoration: none;
+width: 10px;
+padding: 12px 5px;
+}
+.Sign{
+font-size: 16px;
+padding-top: 20px;
+}
+b{
+
+}

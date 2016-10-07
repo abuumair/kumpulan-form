@@ -1,0 +1,112 @@
+body{
+font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+.Background{
+background-color: #1abc9c;
+min-height: 400px;
+padding:  95px 425px 99px 370px;
+}
+.icon{
+left: 200px;
+position: absolute;
+top:100px;
+width: 120px;
+}
+.icon > img{
+display: block;
+margin-bottom: 6px;
+width: 85%;
+}
+h4{
+font-size: 19px;
+font-weight:100;
+line-height:25px;
+opacity: 0.95;
+color: white;
+text-transform: initial;
+}
+.icon > h4 small{
+color: inherit;
+display: block;
+font-size: inherit;
+font-weight: 700;
+}
+.login-form{
+background-color: #edeff1;
+padding: 23px 23px 20px;
+position: relative;
+border-radius: 6px;
+}
+.Form-group{
+position: relative;
+margin-bottom: 20px;
+}
+.login-form .login-field{
+border-color: transparent;
+text-indent:10px;
+font-size: 17px
+}
+.form-control{
+border:2px solid #dbc3c7;
+color: blue;
+border-radius: 5px;
+width: 405px;
+}
+.Form-group input{
+display: block;
+padding: 10px;
+}
+.login-form .login-field-icon{
+color: #bfc9ca;
+font-size: 20px;
+position: absolute;
+transition:all .25s;
+top:3px;
+right: 15px
+}
+button.btn.btn-lg.btn-primary.btn-block{
+width: 100%;
+padding: 15px 0;
+border: 0px;
+border-radius: 5px;
+font-size: inherit;
+color: whitesmoke;
+-webkit-transition:all 1s;
+background-color: mediumaquamarine;
+cursor: pointer;
+}
+button.btn.btn-lg.btn-primary.btn-block:hover{
+background:blue;
+background-color: black;
+}
+.login-link{
+color: #bfc9ca;
+display: block;
+font-size: 16px;
+margin-top: 15px;
+text-align: center;
+text-decoration: none;
+line-height: 30px;
+text-transform: initial;
+}
+.login-link:hover{
+color: mediumaquamarine;
+}
+.Form-group::before{
+content: "\f007";
+position: absolute;
+font-family: "FontAwesome";
+right: 5%;
+padding-top:10px;
+font-size: 20px;
+color: lightgray;
+}
+.Form-group[type="password"]{
+content: "\f023";
+}
+.fa-4x{
+color: #edeff1;
+position: absolute;
+margin-left: -20px;
+top: 125px;
+}

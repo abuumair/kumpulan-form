@@ -1,0 +1,105 @@
+*{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+box-sizing:border-box;
+}
+body{
+background-image:url('image/images (3).jpg');
+display:flex;
+min-height:100px;
+border:5px;
+}
+form{
+margin: auto;
+width: 565px;
+max-width: 1000px;
+padding: 35px;
+margin-top: 5pc;
+background:rgba(13, 12, 12, 0.67);
+border: 10px;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+.loggit{
+text-align: center;
+font-size: 30px;
+color: white;
+padding-top: 10px;
+}
+.please{
+text-align: center;
+color: white;
+margin-top: 10px;
+font-size: 20px;
+}
+.please p{
+font-family:initial;
+}
+.pesan{
+margin-top: 10px;
+}
+i.fa.fa-envelope{
+position: absolute;
+padding: 15px 10px;
+margin-top:20px;
+color: rgb(76, 71, 71);
+background-color:rgb(227, 222, 205);
+width: 40px;
+font-size: 20px;
+border-radius: 5px;
+}
+i.fa.fa-key{
+position: absolute;
+padding: 15px 10px;
+margin-top: 0px;
+color: rgb(76, 71, 71);
+background-color:rgb(227, 222, 205);
+width: 40px;
+font-size: 20px;
+border-radius: 5px;
+}
+input{
+display: block;padding: 15px;width: 100%;margin: 20px 0;font-size: 17px;border: 0px;border-radius: 5px 5px;text-indent: 5px;
+background-color:rgb(251, 243, 243);
+text-indent: 0px;
+}
+input[type="text"]{
+text-indent: 35px;
+}
+input[type="password"]{
+text-indent: 35px;
+}
+input[type="submit"]{
+width: 6pc;
+float: right;
+background-color: #4464B2;
+color: white;
+margin-top: 0px;
+cursor: pointer;
+margin: 0px;
+-webkit-transition:all 1s;
+}
+input[type="submit"]:hover{
+background: black;
+}
+input[type="checkbox"]{
+display: inline-block;
+width: 15px;
+margin:1px 0px;
+}
+.Keep{
+margin-left: 20px;
+margin:-18px 17px;
+color: white;
+}
+.coba{
+padding-top: 10px;
+width: 200px;
+}
+.Don{
+padding-top: 55px;
+width: 280px;
+margin: 10px 20%;
+color: white;
+}
